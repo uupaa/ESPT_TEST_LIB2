@@ -4,7 +4,7 @@ import { View } from "./View.js";
 export class Lib2 {
   update() {
     const model = new Model();
-    cosnt view = new View();
+    const view = new View();
     return `Lib2: ${model.update()} ${view.update()}`;
   }
 }
